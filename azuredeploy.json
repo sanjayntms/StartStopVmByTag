@@ -205,7 +205,7 @@
         "hostingPlanName": "[concat(parameters('functionAppName'), '-plan')]",
         "storageAccountName": "[concat('stofunc', uniquestring(resourceGroup().id))]",
         "BlobContainerName": "logs",
-        "GithubUri": "https://github.com/omiossec/StartStopVmByTag",
+        "GithubUri": "https://github.com/sanjayntms/StartStopVmByTag",
         "prodbranch": "master"
     },
     "resources": [
